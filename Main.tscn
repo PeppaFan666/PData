@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Scripts/FileOpen.gd" type="Script" id=1]
 [ext_resource path="res://Materials/MainTheme.tres" type="Theme" id=2]
@@ -10,6 +10,7 @@
 [ext_resource path="res://Scripts/FileDownload.gd" type="Script" id=8]
 [ext_resource path="res://Scripts/Writer.gd" type="Script" id=9]
 [ext_resource path="res://Scripts/DownloadTime.gd" type="Script" id=10]
+[ext_resource path="res://MainTheme.tres" type="Theme" id=11]
 
 [sub_resource type="DynamicFont" id=3]
 size = 32
@@ -150,6 +151,7 @@ margin_left = 89.0
 margin_top = 584.0
 margin_right = 323.0
 margin_bottom = 598.0
+theme = ExtResource( 11 )
 script = ExtResource( 10 )
 
 [node name="Parser" type="Node" parent="."]
